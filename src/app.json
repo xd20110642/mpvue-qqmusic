@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    "pages/play/main",
+    "pages/search/main",
+    "pages/logs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"green",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "音乐列表"
+      },
+      {
+        "pagePath":"pages/play/main",
+        "text":"正在播放"
+      },
+      {
+        "pagePath":"pages/search/main",
+        "text":"搜索"
+      }
+    ]
+  }
+}
